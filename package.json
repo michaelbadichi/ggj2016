@@ -1,0 +1,27 @@
+{
+  "name": "ggj2016",
+  "version": "0.0.1",
+  "description": "Global Game Jam 2016 game",
+  "main": "voodude.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch -d",
+    "build": "NODE_ENV=production webpack --optimize-minimize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelbadichi/ggj2016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelbadichi/ggj2016/issues"
+  },
+  "homepage": "https://github.com/michaelbadichi/ggj2016#readme",
+  "private": true,
+  "dependencies": {
+    "async": "^1.5.2",
+    "basename": "^0.1.2",
+    "lodash": "^3.10.1"
+  }
+}
